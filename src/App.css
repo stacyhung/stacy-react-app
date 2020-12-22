@@ -1,33 +1,45 @@
+:root {
+  --clr-dark: #5801CB;
+  --clr-light-dark: #6900F3;
+  --clr-primary: #a36fe3;
+  --clr-secondary: plum;
+  --clr-tertiary: #f2d3ed;
+  --clr-light: white;
+  --clr-accent: #f5df38;
+  
+  --ff-primary: 'Roboto', sans-serif;
+  --ff-secondary: 'Cairo', sans-serif;
+  --ff-fancy: 'Dancing Script', cursive;
+}
+
 .App {
   text-align: center;
 }
 
+.logo-container {
+  padding-top: 10px;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  text-decoration: none;
+  /* Increase scale slightly to have a zoom-in effect */
+}
+
+.logo-title {
+  font-size: 1.1em;
+}
+
 .App-logo {
-  height: 50px;
+  height: 40px;
   pointer-events: none;
-  padding: 2px;
+  padding: 3px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  /* height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  /* color: #61dafb; */
-  color: #f2d3ed;
-  font-style: italic;
 }
 
 @keyframes App-logo-spin {
@@ -37,4 +49,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  background-color: #282c34;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-link {
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: white;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-content-container {
+  text-align: center;
+  margin-top: 1em;
 }
