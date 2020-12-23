@@ -38,7 +38,7 @@ function RecipeDetail() {
                 </div>
 
                 <div className="recipe-container recipe-intro">
-                    <img src="../images/recipes/banana-bread.jpg" className="recipe-img" alt="freshly baked banana bread" />
+                    <img src={thisRecipe.img_url} className="recipe-img" alt={thisRecipe.img_alt} />
                     <p className="recipe-desc">{thisRecipe.description}</p>
                 </div>
 
