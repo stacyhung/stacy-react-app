@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
 import logo from './stripe-s-brands.svg';
-import './App.css';
-import Blog from "./pages/blog"
-import Projects from "./pages/projects"
-import Recipes from "./pages/recipes"
-import Travelling from "./pages/travelling"
-import AboutMe from "./pages/aboutMe"
+import Blog from "./pages/Blog"
+import Projects from "./pages/Projects"
+import Recipes from "./pages/Recipes"
+import RecipeDetail from "./pages/RecipeDetail"
+import Travelling from "./pages/Travelling"
+import AboutMe from "./pages/AboutMe"
+import './css/App.css';
 
 
 function App() {
@@ -32,18 +33,23 @@ function App() {
         <div className="main-content-container">
           <Switch>
             <Route exact path="/">
-              <h1>Home</h1>
+              <h1>Welcome to Stacy's Space!</h1>
             </Route>
-            <Route path="/blog">
+            <Route exact path="/blog">
               <Blog />
             </Route>
-            <Route path="/recipes">
+            <Route exact path="/recipes">
               <Recipes />
             </Route>
-            <Route path="/travelling">
+
+            <Route path="/recipes/:recipeId">
+              <RecipeDetail />
+            </Route>
+
+            <Route exact path="/travelling">
               <Travelling />
             </Route>
-            <Route path="/projects">
+            <Route exact path="/projects">
               <Projects />
             </Route>
             <Route path="/about-me">
