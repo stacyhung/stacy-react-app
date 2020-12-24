@@ -80,5 +80,66 @@ export default [
         ],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/scone-rosemary-blueberry.jpg",
         img_alt: "freshly baked blueberry rosemary scones"
+    },
+    {
+        id: "4",
+        name: "Cathy's Beef & Barley Soup",
+        yield: "6 servings",
+        time: "",
+        description: "My husband made this for dinner one night and I was so impressed! It's now a seasonal favourite. This soup has a flavourful broth that soaks right into the veggies and barley. The beef is deliciously tender and makes this an extra hearty meal. So comforting on a winter's day! Thank you Cathy!",
+        ingredients: [
+            "4 lbs of stewing beef or a boneless beef pot roast",
+            "2 cloves of garlic",
+            "1 tsp dried thyme",
+            "¼ cup vegetable oil",
+            "small can (156 ml) tomato paste",
+            "2 bay leaves",
+            "1 cup dry red wine",
+            "1 envelopeton's onion soup",
+            "3 cups water",
+            "½ cup pot barley",
+            "½ cup mustard (optional)",
+            "Loosely chopped vegetables",
+        ],
+        preparation: [
+            "Dry meat with paper towel. Heat oil over high heat. Add meat to oil and brown all sides. Remove to platter and set aside.",
+            "Reduce heat to medium and add tomato paste and bay leaves. Cook, stirring for 2 minutes. Add wine, onion soup mix, water, and mustard and scrape up any browned bits from the bottom of the pan. Mix.",
+            "Add meat back to pan and add pot barley. Cover and simmer for 3-4 hours on the stove or 8 hrs in a slow cooker.",
+            "During the last half hour add whatever vegetables you want (broccoli potatoes, carrots, corn, etc.)"
+        ],
+        img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/Beef-Barley-Soup.jpg",
+        img_alt: "bowl of beef and barley soup"
+    },
+    {
+        id: "5",
+        name: "Instant Pot Chicken and Rice",
+        yield: "6 servings",
+        time: "",
+        description: "This recipe is overflowing with nutrient-rich and healing ingredients, like bell peppers (very high in vitamin C), carrots (beta-carotene for the eyes), garlic (immune boosting properties), ginger and tumeric (anti-inflammatory) and coconut oil (heart-healthy fats). The best part is that this recipe is so easy to pull together, and all the hard work is done by the Instant Pot. A great weeknight recipe that you'll want to have again and again!",
+        ingredients: [
+            "2 tsp coconut oil",
+            "1 small onion, diced",
+            "1½ cups brown rice, rinsed",
+            "3 large carrots, peeled, cut into ¾-inch slices",
+            "2 large bell peppers, cut into slices",
+            "3 cloves garlic, minced",
+            "1 tbsp ginger, minced",
+            "1 tsp ground cumin",
+            "1 tsp kosher salt",
+            "½ tsp ground tumeric",
+            "¼ tsp ground coriander",
+            "1 cup unsweetened almond milk",
+            "1½ pounds boneless skinless chicken breasts",
+            "1 cup frozen peas",
+            "cilantro, chopped (for garnish, optional)",
+        ],
+        preparation: [
+            "Set 6-quart (or larger) Instant Pot to saute mode. Add the coconut oil. Once hot, add onion and cook, stirring occassionally until softened, about 4 minutes.",
+            "Add the brown rice, carrots, red peppers, garlic, ginger, cumin, salt, tumeric and coriander. Stir to coat the rice in oil and spices and cook until fragrant, about 1 minute. Stir in a splash of almond milk and scrape bottom of pot for stuck bits. Stir in remaining almond milk. Arrange chicken breasts in a single layer on top.",
+            "Cover and seal the Instant Pot. Cook on high pressure for 20 minutes. Allow pressure to release naturally for 15 minutes.",
+            "Uncover and remove chicken breasts. Dice or shred with two forks and return to pot. Add the peas and stir to combine. Adjust seasoning to taste. Serve topped with cilantro."
+        ],
+        img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/Instant-Pot-Chicken-and-Rice-3.jpg",
+        img_alt: "bowl of chicken and rice"
     }
 ]
