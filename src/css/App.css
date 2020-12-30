@@ -1,7 +1,9 @@
 :root {
+  --clr-very-dark: #303030;
   --clr-dark: #5801CB;
   --clr-light-dark: #6900F3;
   --clr-primary: #a36fe3;
+  --clr-second-primary:#D18FFF;
   --clr-secondary: plum;
   --clr-tertiary: #f2d3ed;
   --clr-light: white;
@@ -135,11 +137,11 @@ input[type=file] {
 /* Footer */
 
 footer {
-  background: #111;
-  color: var(--clr-primary);
+  background: var(--clr-very-dark);
+  color: var(--clr-tertiary);
   text-align: center;
-  padding: 2.5em 0;
-  font-size: 1.8em;
+  padding: 1.5em 0;
+  font-size: 1.3em;
 }
 
 footer a {
@@ -154,7 +156,7 @@ footer a {
 
 .footer-email:hover,
 footer a:hover {
-  opacity: 0.6;
+  color: var(--clr-dark);
 }
 
 .footer-email:hover {
