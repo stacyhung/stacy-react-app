@@ -83,7 +83,7 @@ strong {
 
 .intro .section-subtitle,
 .about-me .section-subtitle {
-    margin: 0;
+    margin-bottom: 1em;
     font-size: var(--fs-h3);
     background: var(--clr-tertiary);
     font-family: var(--ff-secondary);
@@ -120,6 +120,7 @@ strong {
     }
 
     .intro .section-subtitle {
+        margin-bottom: 1em;
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
