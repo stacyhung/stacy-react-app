@@ -41,7 +41,7 @@ body {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 2em;
 }
 
 img {
@@ -98,6 +98,15 @@ strong {
 
 .intro-img {
     box-shadow: var(--bs);
+}
+
+.intro-content {
+    margin: 0 auto;
+    padding: 0 2em 2em 2em;
+    max-width: 675px;
+    text-align: left;
+    color: var(--clr-very-dark);
+    font-style: italic;
 }
 
 @media (min-width: 600px) {
