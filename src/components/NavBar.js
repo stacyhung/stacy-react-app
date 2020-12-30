@@ -7,10 +7,7 @@ function NavBar() {
     return (
         <nav className="App-navbar">
             <Link className="logo-link" to="/">
-                <div className="logo-container">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <h3 className="logo-title">Be Curious</h3>
-                </div>
+                <img src={logo} className="App-logo" alt="logo" />
             </Link>
             <div className="navbar-links">
                 <Link className="navbar-link" to="/blog">Blog</Link>
