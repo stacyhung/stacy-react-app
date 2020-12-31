@@ -49,12 +49,12 @@ input.cmn-toggle-round-flat + label:after {
 }
 
 input.cmn-toggle-round-flat:checked + label {
-    background-color: var(--clr-tertiary);
+    background-color: var(--clr-dark);
 }
 
 input.cmn-toggle-round-flat:checked + label:after {
     margin-left: 30px;
-    background-color: var(--clr-tertiary);
+    background-color: var(--clr-dark);
 }
 
 @media (max-width: 890px) {
@@ -62,4 +62,13 @@ input.cmn-toggle-round-flat:checked + label:after {
         margin-top: 0.5em;
         margin-left: 30px;
     }
+}
+
+.dark-theme input.cmn-toggle-round-flat + label:before {
+    background-color: var(--clr-very-dark);
+}
+
+.dark-theme input.cmn-toggle-round-flat + label,
+.dark-theme input.cmn-toggle-round-flat + label:after {
+    background-color: var(--clr-tertiary);    
 }

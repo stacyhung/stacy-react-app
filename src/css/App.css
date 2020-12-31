@@ -1,5 +1,6 @@
 :root {
   --clr-very-dark: #303030;
+  --clr-very-dark-light: #3a3b3a;
   --clr-dark: #5801CB;
   --clr-light-dark: #6900F3;
   --clr-primary: #a36fe3;
@@ -19,9 +20,13 @@
   color: var(--clr-tertiary);
 }
 
+.navbar-links.dark-theme * {
+  color: var(--clr-tertiary);
+}
+
 .light-theme {
-  background-color: var(--clr-tertiary);
-  color: var(--clr-very-dark);
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
 }
 
 h1, h2 {
@@ -173,7 +178,7 @@ footer a {
 
 .footer-email:hover,
 footer a:hover {
-  color: var(--clr-dark);
+  color: var(--clr-primary);
 }
 
 .footer-email:hover {

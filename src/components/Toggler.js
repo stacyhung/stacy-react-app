@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
-import "../css/Toggle.css";
 import { ToggleContext } from "../ToggleContext";
+import "../css/Toggle.css";
 
 function Toggler() {
 
-    const { toggleScheme } = useContext(ToggleContext);
+    const { theme, toggleScheme } = useContext(ToggleContext);
 
     return (
         <div className="switch">
             <input
                 id="cmn-toggle"
-                className="cmn-toggle cmn-toggle-round-flat"
+                className={`cmn-toggle cmn-toggle-round-flat ${theme}-theme`}
                 type="checkbox"
                 onChange={toggleScheme}
             />
