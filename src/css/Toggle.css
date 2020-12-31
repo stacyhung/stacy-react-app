@@ -59,8 +59,7 @@ input.cmn-toggle-round-flat:checked + label:after {
 
 @media (max-width: 890px) {
     .cmn-toggle + label {
-        margin-top: 0.5em;
-        margin-left: 30px;
+        margin: 0.5em auto;
     }
 }
 

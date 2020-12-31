@@ -15,6 +15,20 @@
   --ff-fancy: 'Dancing Script', cursive;
 }
 
+/* Light vs. Dark Theme */
+.main-content-container.dark-theme {
+  background-color: var(--clr-very-dark-light);
+}
+
+.main-content-container.dark-theme h1,
+.main-content-container.dark-theme p {
+  color: var(--clr-light);
+}
+
+.main-content-container.dark-theme h3{
+  color: var(--clr-dark);
+}
+
 .dark-theme {
   background-color: var(--clr-very-dark);
   color: var(--clr-tertiary);
@@ -28,6 +42,8 @@
   background-color: var(--clr-light);
   color: var(--clr-dark);
 }
+
+/* General styles */
 
 h1, h2 {
   font-family: var(--ff-secondary);
@@ -106,7 +122,10 @@ input[type=file] {
   justify-content: space-between;
   align-items: center;
   padding: 1.5em;
-  /* background: pink; */
+}
+
+nav {
+  margin: 0 0 -1em 0;
 }
 
 .navbar-link {
@@ -161,8 +180,7 @@ footer {
   background: var(--clr-very-dark);
   color: var(--clr-tertiary);
   text-align: center;
-  padding: 1.5em 0;
-  margin: 2em 0;
+  padding: 1.6em 0;
   font-size: 1.3em;
 }
 
@@ -189,7 +207,7 @@ footer a:hover {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 2em 0 0;
+  margin: 1em 0 0;
   padding: 0;
 }
 
