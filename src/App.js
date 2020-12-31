@@ -8,9 +8,11 @@ import './css/App.css';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Body />
-      <Footer />
+      <div className="App-content">
+        <NavBar />
+        <Body />
+        <Footer />
+      </div>
     </div >
   );
 }

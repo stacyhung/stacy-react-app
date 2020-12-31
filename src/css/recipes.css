@@ -22,14 +22,12 @@ h3 {
 
 .main-content-container {
   text-align: center;
-  margin-top: 1em;
 }
 
 .recipe-cards-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 2em;
 }
 
 .recipe-card {

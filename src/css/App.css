@@ -57,6 +57,10 @@ h1 {
   padding: 0.5em 0;
 }
 
+.main-content-container {
+  padding: 6em 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -78,6 +82,7 @@ input[type=file] {
 
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 .logo-link {
@@ -124,10 +129,6 @@ input[type=file] {
   padding: 1.5em;
 }
 
-nav {
-  margin: 0 0 -1em 0;
-}
-
 .navbar-link {
   margin: 0 1em;
   text-transform: uppercase;
@@ -152,6 +153,10 @@ nav {
 
 /* Change layout of navigation bar for small screens */
 @media (max-width: 890px) {
+
+  .main-content-container {
+    padding: 3em 0;
+  }
 
   .App-navbar {
       flex-direction: column;
