@@ -25,16 +25,21 @@
   color: var(--clr-light);
 }
 
-.main-content-container.dark-theme h3{
+.main-content-container.dark-theme h4 {
   color: var(--clr-dark);
+}
+
+footer .dark-theme {
+  color: var(--clr-light);
 }
 
 .dark-theme {
   background-color: var(--clr-very-dark);
-  color: var(--clr-tertiary);
+  color: var(--clr-light);
 }
 
-.navbar-links.dark-theme * {
+.navbar-links.dark-theme *,
+footer.dark-theme * {
   color: var(--clr-tertiary);
 }
 

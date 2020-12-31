@@ -16,7 +16,6 @@ function Footer() {
                 <SocialListItem url="https://twitter.com/Stacy_S_Hung" icon="fa-twitter-square" />
                 <SocialListItem url="https://www.facebook.com/stacysusanhung" icon="fa-facebook-square" />
             </ul>
-
         </footer >
     )
 }

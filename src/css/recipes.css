@@ -143,6 +143,10 @@ h3 {
     line-height: 1.35em;
 }
 
+.recipe-subtitle {
+    margin: 1em 0;
+}
+
 /* Layout for larger screen sizes */ 
 @media (min-width: 600px) {
 
@@ -170,5 +174,9 @@ h3 {
 
     .recipe-img {
         margin: 0;
+    }
+
+    .recipe-subtitle {
+        margin: 0 0 1em 0;
     }
 }

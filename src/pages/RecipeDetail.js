@@ -44,13 +44,13 @@ function RecipeDetail() {
 
                 <div className="recipe-container recipe-main">
                     <div className="ingredients-container">
-                        <h3>Ingredients</h3>
+                        <h3 className="recipe-subtitle">Ingredients</h3>
                         <ul>
                             {ingredientsList}
                         </ul>
                     </div>
                     <div className="instructions-container">
-                        <h3>Preparation</h3>
+                        <h3 className="recipe-subtitle">Preparation</h3>
                         <ol>
                             {preparationSteps}
                         </ol>
