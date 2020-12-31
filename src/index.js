@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// import './css/App.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { ToggleContextProvider } from "./ToggleContext";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App />
+      <ToggleContextProvider>
+        <App />
+      </ToggleContextProvider>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

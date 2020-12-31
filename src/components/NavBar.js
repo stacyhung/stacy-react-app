@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../stripe-s-brands.svg';
-import '../css/App.css';
+import logo from "../s-logo-dark.svg";
+import Toggler from "./Toggler";
+import "../css/App.css";
 
 function NavBar() {
     return (
@@ -14,7 +15,8 @@ function NavBar() {
                 <Link className="navbar-link" to="/recipes">Recipes</Link>
                 <Link className="navbar-link" to="/travelling">Travelling</Link>
                 <Link className="navbar-link" to="/projects">Projects</Link>
-                <Link className="navbar-link" to="/about-me">About Me</Link>
+                {/* <Link className="navbar-link" to="/about-me">About Me</Link> */}
+                <Toggler />
             </div>
         </nav>
     )

@@ -23,11 +23,9 @@ function Body() {
                     <Route exact path="/recipes">
                         <Recipes />
                     </Route>
-
                     <Route path="/recipes/:recipeId">
                         <RecipeDetail />
                     </Route>
-
                     <Route exact path="/travelling">
                         <Travelling />
                     </Route>

@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import SocialListItem from "./SocialListItem";
+import { ToggleContext } from "../ToggleContext";
 import "../css/App.css"
 
 function Footer() {
+
+    const { theme } = useContext(ToggleContext);
+
     return (
-        <footer>
+        <footer className={`${theme}-theme`}>
             <a className="footer-email" href="mailto:sshung@gmail.com">sshung at gmail dot com</a>
             <ul className="social-list">
                 <SocialListItem url="https://github.com/stacyhung" icon="fa-github" />

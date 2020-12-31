@@ -14,6 +14,16 @@
   --ff-fancy: 'Dancing Script', cursive;
 }
 
+.dark-theme {
+  background-color: var(--clr-very-dark);
+  color: var(--clr-tertiary);
+}
+
+.light-theme {
+  background-color: var(--clr-tertiary);
+  color: var(--clr-very-dark);
+}
+
 h1, h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-primary);
@@ -57,7 +67,7 @@ input[type=file] {
 .logo-link:hover,
 .logo-link:focus {
   text-decoration: none;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .logo-title {
@@ -108,6 +118,12 @@ input[type=file] {
   color: var(--clr-primary);
   border-bottom: 2px solid var(--clr-primary);
   text-decoration: none;
+}
+
+.navbar-links {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Change layout of navigation bar for small screens */

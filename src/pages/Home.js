@@ -9,7 +9,7 @@ function Home() {
         <>
             <section className="intro">
                 <h1 className="section-title">Hi, I am <br /><strong>Stacy Hung</strong></h1>
-                <h3 className="section-subtitle">Front-end Dev</h3>
+                <h3 className="section-subtitle">PhD, Front-end Dev</h3>
                 <img className="intro-img" src={profilePic} alt="me looking out at NZ" id="profile-pic" />
             </section>
             <p className="intro-content">I'm a bioinformatics scientist who recently discovered an untapped
@@ -17,7 +17,6 @@ function Home() {
             sipping on a matcha / tumeric latte, or coming up with an itinerary for my next big trip.
             Here's my outlet - enjoy!</p>
         </>
-
     )
 }
 
