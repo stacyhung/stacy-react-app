@@ -1,0 +1,34 @@
+.blog-cards-container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.blog-card * {
+    text-align: left;
+    
+}
+
+.blog-card h3 {
+    color: var(--clr-dark);
+    font-size: 1.4em;
+}
+
+.blog-card p {
+    color: var(--clr-very-dark);
+}
+
+.blog-card {
+    padding: 0 4em;
+    display: flex;
+    flex-direction: row;
+    /* background-color:grey; */
+}
+
+.blog-card:hover,
+.blog-card:focus {
+    text-decoration: none;
+}
+
+.blog-card-title {
+    padding: 1em 0;
+}

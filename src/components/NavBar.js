@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import logoDark from "../s-logo-dark.svg";
-import logoLight from "../s-logo-light.svg";
+import logoDark from "../images/s-logo-dark.svg";
+import logoLight from "../images/s-logo-light.svg";
 import Toggler from "./Toggler";
 import { ToggleContext } from "../ToggleContext";
 import "../css/App.css";

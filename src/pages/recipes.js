@@ -1,7 +1,7 @@
 import React from "react";
-import recipeData from "./data/recipeData";
+import recipeData from "../data/recipeData";
 import { Link } from "react-router-dom";
-import "../css/recipes.css"
+import "../css/recipe.css"
 
 function Recipes() {
 

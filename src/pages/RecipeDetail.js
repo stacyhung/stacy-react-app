@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import recipeData from "./data/recipeData";
-import "../css/recipes.css";
+import recipeData from "../data/recipeData";
+import "../css/recipe.css";
 
 function RecipeDetail() {
 

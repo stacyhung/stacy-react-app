@@ -1,6 +1,5 @@
 import React from "react";
-import profilePic from '../IMG_7200-EFFECTS.jpg';
-// import profilePic from '../Iceland-Stacy-golden-circle2.jpg';
+import profilePic from '../images/IMG_7200-EFFECTS.jpg';
 import '../css/Home.css'
 
 function Home() {
