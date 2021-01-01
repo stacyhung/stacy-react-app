@@ -2,31 +2,9 @@
     box-sizing: border-box;
 }
 
-/* Custom properties */
-
-:root {
-    --fw-reg: 400;
-    --fw-bold: 700;
-
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.1rem;
-    --fs-body: 1rem;
-
-    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,0.15);
-}
-
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 3.8rem;
-        --fs-h2: 3.2rem;
-        --fs-h3: 1.4rem;
-        --fs-body: 1.125rem;
-    }
-}
-
-/* General styles */
+/* ======================
+General Styles
+========================= */
 
 html {
     scroll-behavior: smooth;
@@ -49,7 +27,9 @@ img {
     max-width: 100%;
 }
 
-/* Typography */
+/* ======================
+Typography
+========================= */
 
 h1,
 h2,
@@ -67,9 +47,18 @@ strong {
 }
 
 .section-title {
+    font-size: 3rem;
     text-align: left;
     color: var(--clr-dark);
 }
+  
+  @media (min-width: 800px) {
+    .section-title {
+        font-size: 3.8rem;
+    }
+  }
+
+
 
 .intro .section-subtitle,
 .intro .section-title {
@@ -90,7 +79,9 @@ strong {
     padding: 0.25em 1em;
 }
 
-/* Intro section */
+/* ======================
+Intro section
+========================= */
 
 .intro {
     position: relative;
@@ -140,7 +131,9 @@ strong {
 
 }
 
-/* My services section */
+/* ======================
+Services section
+========================= */
 
 /* .my-services {
     background-color: #540366;
@@ -229,7 +222,9 @@ strong {
     }
 } */
 
-/* My Work */
+/* ======================
+My Work section
+========================= */
 
 /* .my-work {
     background-color: var(--clr-very-dark);

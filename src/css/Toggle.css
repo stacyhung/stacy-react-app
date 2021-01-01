@@ -57,12 +57,6 @@ input.cmn-toggle-round-flat:checked + label:after {
     background-color: var(--clr-dark);
 }
 
-@media (max-width: 890px) {
-    .cmn-toggle + label {
-        margin: 0.5em auto;
-    }
-}
-
 .dark-theme input.cmn-toggle-round-flat + label:before {
     background-color: var(--clr-very-dark);
 }

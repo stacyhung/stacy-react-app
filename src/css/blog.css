@@ -1,3 +1,7 @@
+/* ======================
+Main blog page
+========================= */
+
 .blog-cards-container {
     margin: 0 auto;
     max-width: 1000px;
@@ -5,7 +9,6 @@
 
 .blog-card * {
     text-align: left;
-    
 }
 
 .blog-card h3 {
@@ -13,22 +16,57 @@
     font-size: 1.4em;
 }
 
+.blog-card.dark-theme h3 {
+    color: var(--clr-tertiary);
+    background-color: inherit;
+}
+
 .blog-card p {
     color: var(--clr-very-dark);
 }
 
 .blog-card {
-    padding: 0 4em;
+    padding: 0 2em;
+    margin: 3em;
     display: flex;
     flex-direction: row;
-    /* background-color:grey; */
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+/* Remove margin-top on first BlogCard and margin-bottom on last BlogCard */
+.blog-cards-container {
+    margin: -3em 0;
 }
 
 .blog-card:hover,
 .blog-card:focus {
+    transform: scale(1.03);
+}
+
+.blog-card-link:hover,
+.blog-card-link:focus {
     text-decoration: none;
 }
 
 .blog-card-title {
     padding: 1em 0;
+}
+
+.blog-card-date {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9em;
+    opacity: 0.6;
+}
+
+/* ======================
+Individual blog pages
+========================= */
+
+.blog-container {
+    margin: 0 auto;
+    padding: 0 4em;
+    max-width: 1000px;
+    text-align: left;
 }

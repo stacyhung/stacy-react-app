@@ -15,7 +15,35 @@
   --ff-fancy: 'Dancing Script', cursive;
 }
 
-/* Light vs. Dark Theme */
+/* ======================
+Custom properties
+========================= */
+
+:root {
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  --fs-h1: 2.3rem;
+  --fs-h2: 1.8rem;
+  --fs-h3: 1.1rem;
+  --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,0.15);
+}
+
+@media (min-width: 800px) {
+  :root {
+      --fs-h1: 2.8rem;
+      --fs-h2: 2rem;
+      --fs-h3: 1.4rem;
+      --fs-body: 1.05rem;
+  }
+}
+
+/* ======================
+Light vs. Dark Theme
+========================= */
 
 .dark-theme {
   background-color: var(--clr-very-dark);
@@ -53,7 +81,9 @@ footer.light-theme {
   color: var(--clr-dark);
 }
 
-/* General styles */
+/* ======================
+General Styles
+========================= */
 
 h1, h2 {
   font-family: var(--ff-secondary);
@@ -161,8 +191,10 @@ input[type=file] {
   flex-direction: row;
 }
 
-/* Change layout of navigation bar for small screens */
-@media (max-width: 890px) {
+/* ======================
+Small screens
+========================= */
+@media (max-width: 650px) {
 
   .main-content-container {
     padding: 3em 0;
@@ -187,9 +219,15 @@ input[type=file] {
   .navbar-link:focus {
     border-bottom: none;
   }
+
+  .cmn-toggle + label {
+    margin: 0.5em auto;
+  }
 }
 
-/* Footer */
+/* ======================
+Footer
+========================= */
 
 footer {
   background: var(--clr-very-dark);

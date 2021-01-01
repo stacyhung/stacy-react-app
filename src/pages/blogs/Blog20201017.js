@@ -1,6 +1,6 @@
 import React from "react";
 
-function Blog20201017() {
+export default function Blog20201017() {
     return (
         <>
             <p>I’ve recently had the chance to work on some single-cell RNA-seq (scRNAseq) datasets generated with
