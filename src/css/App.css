@@ -16,6 +16,17 @@
 }
 
 /* Light vs. Dark Theme */
+
+.dark-theme {
+  background-color: var(--clr-very-dark);
+  color: var(--clr-light);
+}
+
+.light-theme {
+  background-color: var(--clr-light);
+  color: var(--clr-very-dark);
+}
+
 .main-content-container.dark-theme {
   background-color: var(--clr-very-dark-light);
 }
@@ -29,22 +40,16 @@
   color: var(--clr-dark);
 }
 
-footer .dark-theme {
-  color: var(--clr-light);
-}
-
-.dark-theme {
-  background-color: var(--clr-very-dark);
-  color: var(--clr-light);
-}
-
 .navbar-links.dark-theme *,
 footer.dark-theme * {
   color: var(--clr-tertiary);
 }
 
-.light-theme {
-  background-color: var(--clr-light);
+footer.dark-theme {
+  color: var(--clr-light);
+}
+
+footer.light-theme {
   color: var(--clr-dark);
 }
 
@@ -52,7 +57,7 @@ footer.dark-theme * {
 
 h1, h2 {
   font-family: var(--ff-secondary);
-  color: var(--clr-primary);
+  color: var(--clr-dark);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -69,7 +74,7 @@ h1 {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
+  color: var(--clr-very-dark);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: var(--ff-primary);
@@ -190,8 +195,6 @@ footer {
   background: var(--clr-very-dark);
   color: var(--clr-tertiary);
   text-align: center;
-  padding: 1.6em 0;
-  font-size: 1.3em;
 }
 
 footer a {
@@ -199,9 +202,12 @@ footer a {
   text-decoration: none;
 }
 
-.footer-email {
+.footer-email, .copyright {
+  margin: 0;
   font-family: var(--ff-secondary);
-  letter-spacing: 1px;
+  letter-spacing: 0.03em;
+  font-size: 1.2em;
+  /* background-color: palegreen; */
 }
 
 .footer-email:hover,
@@ -214,17 +220,20 @@ footer a:hover {
 }
 
 .social-list {
+  padding: 1.2em 0;
+  margin: 0;
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 1em 0 0;
-  padding: 0;
+  /* background-color: palevioletred; */
+  font-size: 1.7em;
+}
+
+.copyright {
+  padding-bottom: 1.5em;
+  opacity: 0.6;
 }
 
 .social-list-item {
-  margin: 0 0.5em;
-}
-
-.social-list-link {
-  padding: 0.5em;
+  margin: 0 1.2em;
 }
