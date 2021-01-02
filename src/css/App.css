@@ -42,12 +42,31 @@ Custom properties
 }
 
 /* ======================
-Light vs. Dark Theme
+Dark vs. light theme
 ========================= */
 
-.dark-theme {
-  background-color: var(--clr-very-dark);
+.dark-theme,
+.main-content-container.dark-theme {
+  background-color: var(--clr-very-dark-light);
+}
+
+.dark-theme,
+.main-content-container.dark-theme h1,
+.main-content-container.dark-theme h3,
+.main-content-container.dark-theme p {
   color: var(--clr-light);
+}
+
+nav.dark-theme,
+footer.dark-theme,
+.navbar-links.dark-theme {
+  background-color: var(--clr-very-dark);
+}
+
+nav.dark-theme,
+footer.dark-theme,
+.navbar-links.dark-theme * {
+  color: var(--clr-tertiary);
 }
 
 .light-theme {
@@ -55,31 +74,10 @@ Light vs. Dark Theme
   color: var(--clr-very-dark);
 }
 
-.main-content-container.dark-theme {
-  background-color: var(--clr-very-dark-light);
-}
-
-.main-content-container.dark-theme h1,
-.main-content-container.dark-theme h3,
-.main-content-container.dark-theme p {
-  color: var(--clr-light);
-}
-
-.main-content-container.dark-theme h4 {
-  color: var(--clr-dark);
-}
-
-.navbar-links.dark-theme * {
-  color: var(--clr-tertiary);
-}
-
-footer.dark-theme {
-  color: var(--clr-tertiary);
-}
-
 footer.light-theme {
   color: var(--clr-dark);
 }
+
 
 /* ======================
 General Styles

@@ -53,7 +53,8 @@ Main blog page
     padding: 1em 0;
 }
 
-.blog-card-date {
+.blog-card-date,
+.blog-date {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 0.9em;
@@ -69,4 +70,42 @@ Individual blog pages
     padding: 0 4em;
     max-width: 1000px;
     text-align: left;
+}
+
+.blog-date {
+    margin: 1.2em 0;
+}
+
+.blog-content {
+    margin-top: 1.6em;
+}
+
+.blog-content li {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0.8em 0;
+}
+
+.blog-content h3 {
+    margin: 1.2em 0;
+    line-height: 1.5em;
+}
+
+.within-article-link {
+    color: var(--clr-dark);
+}
+
+.within-article-link.light-theme {
+    color: var(--clr-tertiary);
+}
+
+.within-article-link:hover,
+.within-article-link:focus {
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.blog-content.dark-theme a:link,
+.blog-content.dark-theme a:visited {
+    color: var(--clr-tertiary);
 }

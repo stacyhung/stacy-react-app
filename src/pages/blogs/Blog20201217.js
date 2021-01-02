@@ -1,4 +1,5 @@
 import React from "react";
+import "../../css/blog.css";
 
 export default function Blog20201217() {
         return (
@@ -6,8 +7,7 @@ export default function Blog20201217() {
                         <p>Earlier this year, I had an epiphany about what I wanted to do with my career.</p>
 
                         <p>For half my life, I had believed <a className="within-article-link"
-                                href="https://en.wikipedia.org/wiki/Bioinformatics">bioinformatics</a>
-                        was my calling. I had
+                                href="https://en.wikipedia.org/wiki/Bioinformatics">bioinformatics</a> was my calling. I had
                         enrolled in one of only two
                         bioinformatics undergraduate programs in the country, then pursued a PhD in
                         bioinformatics and

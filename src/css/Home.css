@@ -52,13 +52,11 @@ strong {
     color: var(--clr-dark);
 }
   
-  @media (min-width: 800px) {
+@media (min-width: 800px) {
     .section-title {
         font-size: 3.8rem;
     }
-  }
-
-
+}
 
 .intro .section-subtitle,
 .intro .section-title {
@@ -77,6 +75,10 @@ strong {
     background: var(--clr-tertiary);
     font-family: var(--ff-secondary);
     padding: 0.25em 1em;
+}
+
+.section-subtitle.dark-theme {
+    color: var(--clr-dark);
 }
 
 /* ======================
