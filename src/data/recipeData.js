@@ -2,6 +2,7 @@ export default [
     {
         id: "1",
         name: "Extra-fluffy Dairy-free Blueberry Pancakes",
+        short_name: "Pancakes",
         yield: "8 pancakes",
         time: "20 min",
         description: "This is an incredibly quick and easy pancake recipe that never fails to make extra-fluffy pancakes filled with the juiciness and slight sweetness of antioxidant-rich blueberries. The best part is that I can use almond milk, which I always have handy because I'm lactose intolerant! Also, if you somehow end up not finishing these delicious cakes, you can even freeze the leftovers.",
@@ -21,11 +22,13 @@ export default [
             "In preheated skillet, coated with oil or butter, pour in ~⅓ cup batter, and allow to cook until bubbles are visible throughout before flipping.",
             "Repeat until all batter has been used up. Keep pancakes warm in oven (~200℉) while you make the rest. Enjoy!"],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/blueberry_panckes.jpg",
-        img_alt: "blueberry pancakes"
+        img_alt: "blueberry pancakes",
+        key_words: "Extra-fluffy, dairy-free, blueberries"
     },
     {
         id: "2",
         name: "Tried-and-True Banana Bread",
+        short_name: "Banana Bread",
         yield: "1 loaf",
         time: "30 min",
         description: "This is one of the best ways to use up your over-ripe bananas. The key to this recipe is making sure the eggs, bananas (if frozen) and butter have thawed to room temperature. Freshly baked is the best time to eat, but when I don't have guests to share it with, I just freeze the rest as plastic-wrapped slices. Then when you're ready to have a slice, just reheat from frozen at 225℉ for 6 minutes!",
@@ -52,11 +55,13 @@ export default [
             "Cool in pan for 10 min. before serving. Enjoy!"
         ],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/banana-bread.jpg",
-        img_alt: "freshly baked banana bread"
+        img_alt: "freshly baked banana bread",
+        key_words: "Freezer-friendly, bananas, walnuts"
     },
     {
         id: "3",
         name: "Blueberry Rosemary Scones",
+        short_name: "Scones",
         yield: "8 wedges",
         time: "30 min",
         description: "These nearly-vegan scones are the perfect gourmet biscuit for a weekend morning. You can substitute frozen blueberries with fresh (I love the fact that you can use frozen bluerries though, since I always have them around!). Also, fresh rosemary is a must and the real star of this recipe. These also freeze well, so you can make a few batches and save them for later! You can make this recipe completely vegan by creating a 'flax egg' (1 tablespoon of ground flaxseed and 3 tablespoons of water to replace 1 egg).",
@@ -79,11 +84,13 @@ export default [
             "Transfer to pan and sprinkle with sugar. Bake at 400℉ for 22-27 minutes. Cool before serving. Enjoy!"
         ],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/scone-rosemary-blueberry.jpg",
-        img_alt: "freshly baked blueberry rosemary scones"
+        img_alt: "freshly baked blueberry rosemary scones",
+        key_words: "Fresh rosemary, blueberries, coconut oil"
     },
     {
         id: "4",
         name: "Cathy's Beef & Barley Soup",
+        short_name: "Beef & Barley",
         yield: "6 servings",
         time: "",
         description: "My husband made this for dinner one night and I was so impressed! It's now a seasonal favourite. This soup has a flavourful broth that soaks right into the veggies and barley. The beef is deliciously tender and makes this an extra hearty meal. So comforting on a winter's day! Thank you Cathy!",
@@ -108,11 +115,13 @@ export default [
             "During the last half hour add whatever vegetables you want (broccoli potatoes, carrots, corn, etc.)"
         ],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/Beef-Barley-Soup.jpg",
-        img_alt: "bowl of beef and barley soup"
+        img_alt: "bowl of beef and barley soup",
+        key_words: "Satisfying, red wine, thyme"
     },
     {
         id: "5",
         name: "Instant Pot Chicken and Rice",
+        short_name: "Chicken bowl",
         yield: "6 servings",
         time: "",
         description: "This recipe is overflowing with nutrient-rich and healing ingredients, like bell peppers (very high in vitamin C), carrots (beta-carotene for the eyes), garlic (immune boosting properties), ginger and tumeric (anti-inflammatory) and coconut oil (heart-healthy fats). The best part is that this recipe is so easy to pull together, and all the hard work is done by the Instant Pot. A great weeknight recipe that you'll want to have again and again!",
@@ -140,6 +149,7 @@ export default [
             "Uncover and remove chicken breasts. Dice or shred with two forks and return to pot. Add the peas and stir to combine. Adjust seasoning to taste. Serve topped with cilantro."
         ],
         img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/Instant-Pot-Chicken-and-Rice-3.jpg",
-        img_alt: "bowl of chicken and rice"
+        img_alt: "bowl of chicken and rice",
+        key_words: "Antioxidant-rich, tumeric, coriander"
     }
 ]

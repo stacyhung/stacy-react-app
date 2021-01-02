@@ -16,39 +16,39 @@ function Body() {
     const { theme } = useContext(ToggleContext);
 
     return (
-        <body>
-            <div className={`main-content-container ${theme}-theme`}>
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
 
-                    <Route exact path="/blog">
-                        <Blog />
-                    </Route>
-                    <Route path="/blog/:blogId">
-                        <BlogDetail />
-                    </Route>
+        <div className={`main-content-container ${theme}-theme`}>
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
 
-                    <Route exact path="/recipes">
-                        <Recipes />
-                    </Route>
-                    <Route path="/recipes/:recipeId">
-                        <RecipeDetail />
-                    </Route>
+                <Route exact path="/blog">
+                    <Blog />
+                </Route>
+                <Route path="/blog/:blogId">
+                    <BlogDetail />
+                </Route>
 
-                    <Route exact path="/travelling">
-                        <Travelling />
-                    </Route>
-                    <Route exact path="/projects">
-                        <Projects />
-                    </Route>
-                    <Route path="/about-me">
-                        <AboutMe />
-                    </Route>
-                </Switch>
-            </div>
-        </body>
+                <Route exact path="/recipes">
+                    <Recipes />
+                </Route>
+                <Route path="/recipes/:recipeId">
+                    <RecipeDetail />
+                </Route>
+
+                <Route exact path="/travelling">
+                    <Travelling />
+                </Route>
+                <Route exact path="/projects">
+                    <Projects />
+                </Route>
+                <Route path="/about-me">
+                    <AboutMe />
+                </Route>
+            </Switch>
+        </div>
+
     )
 }
 

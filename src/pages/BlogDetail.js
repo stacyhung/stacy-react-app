@@ -32,6 +32,7 @@ function BlogDetail() {
 
     return (
         <div className={`blog-container ${theme}-theme`}>
+            <img className="blog-img" src={thisBlog.img_large} alt={thisBlog.img_alt} />
             <h1>{thisBlog.title}</h1>
             <p className="blog-date">{thisBlog.date}</p>
             <div className={`blog-content ${theme}-theme`}>{content}</div>

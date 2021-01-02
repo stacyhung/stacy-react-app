@@ -14,7 +14,7 @@ function Toggler() {
                 type="checkbox"
                 onChange={toggleScheme}
             />
-            <label for="cmn-toggle"></label>
+            <label htmlFor="cmn-toggle"></label>
         </div>
     )
 }

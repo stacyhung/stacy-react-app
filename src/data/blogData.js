@@ -5,7 +5,7 @@ export default [
         date: "October 17, 2020",
         exerpt: "I’ve recently had the chance to work on some single-cell RNA-seq (scRNAseq) datasets generated with the 10X Genomics 3’ assay.",
         img_small: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/MNN_correction_mini_v2.jpg",
-        img_large: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/MNN_correction_v2.jpg",
+        img_large: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/MNN_correction_v3.png",
         img_alt: "Schematic of MNN batch correction"
     },
     {

@@ -88,6 +88,12 @@ Individual blog pages
     text-align: left;
 }
 
+.blog-img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
 .blog-date {
     margin: 1.2em 0;
 }

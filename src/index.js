@@ -6,13 +6,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ToggleContextProvider } from "./ToggleContext";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <ToggleContextProvider>
-        <App />
-      </ToggleContextProvider>
-    </Router>
-  </React.StrictMode>,
+  <Router>
+    <ToggleContextProvider>
+      <App />
+    </ToggleContextProvider>
+  </Router>,
   document.getElementById('root')
 );
 
