@@ -11,7 +11,7 @@ function BlogCard(props) {
     return (
         <Link className="blog-card-link" to={`/blog/${data.id}`} >
             <div className={`blog-card ${theme}-theme`}>
-                <img src="" alt="" />
+                <img className="blog-card-img" src={data.img_small} alt="{data.img_alt}" />
                 <div className="blog-card-content">
                     <h3 className="blog-card-title">{data.title}</h3>
                     <p className="blog-card-exerpt">{data.exerpt}</p>

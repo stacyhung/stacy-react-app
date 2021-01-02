@@ -55,7 +55,7 @@ export default function Blog20201017() {
                         examine
                         individual genes exhibiting significant changes in expression between groups of interest (i.e.
                         diagnosis
-                        vs. relapse cases), when I came across JUND, a proto-oncogene that appeared to be highly expressed
+                        vs. relapse cases), when I came across <i>JUND</i>, a proto-oncogene that appeared to be highly expressed
                         at
                         relapse but very lowly expressed at diagnosis. Surprisingly, the expression pattern was similar
                         across
@@ -64,8 +64,8 @@ export default function Blog20201017() {
                         not
                     all the cells.</p>
 
-                        <p>I then looked at expression of JUND at the sample level, and noticed that in addition to all of the
-                        diagnostic samples, a handful of the relapse samples were not expressing JUND. When I presented
+                        <p>I then looked at expression of <i>JUND</i> at the sample level, and noticed that in addition to all of the
+                        diagnostic samples, a handful of the relapse samples were not expressing <i>JUND</i>. When I presented
                         these
                         results to my lab, the technician who runs the sequencing experiments, recalled these samples were
                         prepared using an older version of the 3’ assay (V2). Indeed, the 10X website shows data indicating

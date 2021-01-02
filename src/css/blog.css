@@ -2,11 +2,6 @@
 Main blog page
 ========================= */
 
-.blog-cards-container {
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
 .blog-card * {
     text-align: left;
 }
@@ -30,13 +25,16 @@ Main blog page
     margin: 3em;
     display: flex;
     flex-direction: row;
+    align-items: center;
     transform: scale(1);
     transition: transform 250ms;
 }
 
-/* Remove margin-top on first BlogCard and margin-bottom on last BlogCard */
-.blog-cards-container {
-    margin: -3em 0;
+.blog-card-img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    padding-right: 2em;
 }
 
 .blog-card:hover,
@@ -59,6 +57,24 @@ Main blog page
     font-weight: 500;
     font-size: 0.9em;
     opacity: 0.6;
+}
+
+/* Remove margin-top on first BlogCard and margin-bottom on last BlogCard */
+.blog-cards-container {
+    max-width: 1000px;
+    margin: -3em auto;
+    /* background: palegreen; */
+}
+
+@media (max-width: 810px) {
+    .blog-card {
+        flex-direction: column;
+    }
+
+    .blog-card-img {
+        width: 100%;
+        height: calc(100vw * 0.4);
+    }
 }
 
 /* ======================
