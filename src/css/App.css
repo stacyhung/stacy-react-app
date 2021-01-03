@@ -223,6 +223,7 @@ Footer
 ========================= */
 
 footer {
+  display: block;
   background: var(--clr-very-dark);
   color: var(--clr-tertiary);
   text-align: center;

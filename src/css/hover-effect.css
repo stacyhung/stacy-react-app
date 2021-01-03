@@ -1,0 +1,215 @@
+.grid {
+    margin: 0 auto;
+    max-width: 1000px;
+	width: 90%;
+	display:inline-block; /* keep everything inside body */
+}
+
+.grid .hover-link {
+    float: left;
+    max-width: 280px;
+    width: 25%; /* Show up to 4 items in a row*/
+}
+
+/* Create offset for odd items */
+.grid .hover-link:nth-child(odd) {
+    margin: 30px 0 -30px 0;
+}
+
+.grid figure {
+    position: relative;
+    overflow: hidden;
+	margin: 10px;
+	background:var(--clr-very-dark);
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.grid figcaption h2 {
+	letter-spacing: 0.1em;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p {
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption {
+	padding: 4em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > .hover-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+.grid figure figcaption > .hover-link {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 700;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+@media screen and (max-width: 58em) {
+	.grid .hover-link {
+		width: 33.333%;
+	}
+
+	.grid .hover-link:nth-child(odd) {
+		margin: 0;
+	}
+
+	.grid .hover-link:nth-child(3n-1) {
+		margin: 30px 0 -30px 0;
+	}
+}
+
+/* For smaller screen, change number of items in a row:
+    - Reset width and margin of the odd children
+    - Anchors are the 2nd, 5th, 8th, 11th, etc.
+    - for very small sizes, adjust max-width and margins */
+
+@media screen and (max-width: 58em) {
+	.grid .hover-link {
+		width: 33.333%;
+	}
+
+	.grid .hover-link:nth-child(odd) {
+		margin: 0;
+	}
+
+	.grid .hover-link:nth-child(3n-1) {
+		margin: 30px 0 -30px 0;
+	}
+}
+
+@media screen and (max-width: 45em) {
+	.grid {
+		max-width: 500px;
+	}
+
+	.grid .hover-link {
+		width: 50%;
+	}
+
+	.grid .hover-link:nth-child(3n-1) {
+		margin: 0;
+	}
+
+	.grid .hover-link:nth-child(even) {
+		margin: 30px 0 -30px 0;
+	}
+
+	.grid figcaption h2 {
+		margin-bottom: 0px;
+		transform: translateY(30px);
+	}
+
+	.grid figcaption p {
+		margin: 0;
+		padding: 0 10px;
+	}
+}
+
+@media screen and (max-width: 27em) {
+	.grid {
+		max-width: 250px;
+	}
+
+	.grid .hover-link {
+		width: 100%;
+	}
+
+	.grid .hover-link:nth-child(even) {
+		margin: 0;
+	}
+}
+
+/* Individual effects */
+
+/* Sadie effect */
+
+figure.effect-sadie figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	color: var(--clr-light);
+	transition: transform 0.35s, color 0.35s;
+	transform: translate3d(0,-50%,0);
+}
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	transform: translate3d(0,10px,0);
+}
+
+figure.effect-sadie:hover h2 {
+	color: #fff;
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
