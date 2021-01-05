@@ -1,18 +1,18 @@
 :root {
   --clr-very-dark: #303030;
   --clr-very-dark-light: #3a3b3a;
-  --clr-dark: #5801CB;
-  --clr-light-dark: #6900F3;
+  --clr-dark: #5801cb;
+  --clr-light-dark: #6900f3;
   --clr-primary: #a36fe3;
-  --clr-second-primary:#D18FFF;
+  --clr-second-primary: #d18fff;
   --clr-secondary: plum;
   --clr-tertiary: #f2d3ed;
   --clr-light: white;
   --clr-accent: #f5df38;
-  
-  --ff-primary: 'Roboto', sans-serif;
-  --ff-secondary: 'Cairo', sans-serif;
-  --ff-fancy: 'Dancing Script', cursive;
+
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Cairo", sans-serif;
+  --ff-fancy: "Dancing Script", cursive;
 }
 
 /* ======================
@@ -28,16 +28,16 @@ Custom properties
   --fs-h3: 1.1rem;
   --fs-body: 1rem;
 
-  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.25),
-        0.125em 0.125em 0.25em rgba(0,0,0,0.15);
+  --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 800px) {
   :root {
-      --fs-h1: 2.8rem;
-      --fs-h2: 2rem;
-      --fs-h3: 1.4rem;
-      --fs-body: 1.05rem;
+    --fs-h1: 2.8rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.4rem;
+    --fs-body: 1.05rem;
   }
 }
 
@@ -78,12 +78,12 @@ footer.light-theme {
   color: var(--clr-dark);
 }
 
-
 /* ======================
 General Styles
 ========================= */
 
-h1, h2 {
+h1,
+h2 {
   font-family: var(--ff-secondary);
   color: var(--clr-dark);
   font-weight: 600;
@@ -105,7 +105,7 @@ input.form-control {
   font-size: 1rem;
 }
 
-input[type=file] {
+input[type="file"] {
   width: 100%;
 }
 
@@ -188,14 +188,14 @@ input[type=file] {
 Small screens
 ========================= */
 @media (max-width: 650px) {
-
   .main-content-container {
     padding: 3em 0;
   }
 
   .App-navbar {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .App-logo {
@@ -205,6 +205,7 @@ Small screens
   .navbar-links {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
   }
 
