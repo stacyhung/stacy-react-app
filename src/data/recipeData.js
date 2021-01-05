@@ -1,6 +1,6 @@
 export default [
     {
-        id: "1",
+        id: "dairy-free-pancakes",
         name: "Extra-fluffy Dairy-free Blueberry Pancakes",
         short_name: "Pancakes",
         yield: "8 pancakes",
@@ -25,41 +25,41 @@ export default [
         img_alt: "blueberry pancakes",
         key_words: "Extra-fluffy, dairy-free, blueberries"
     },
+    // {
+    //     id: "tried-and-true-banana-bread",
+    //     name: "Tried-and-True Banana Bread",
+    //     short_name: "Banana Bread",
+    //     yield: "1 loaf",
+    //     time: "30 min",
+    //     description: "This is one of the best ways to use up your over-ripe bananas. The key to this recipe is making sure the eggs, bananas (if frozen) and butter have thawed to room temperature. Freshly baked is the best time to eat, but when I don't have guests to share it with, I just freeze the rest as plastic-wrapped slices. Then when you're ready to have a slice, just reheat from frozen at 225℉ for 6 minutes!",
+    //     ingredients: [
+    //         "½ cup butter (room temp)",
+    //         "1 cup white sugar",
+    //         "2 large eggs (room temp)",
+    //         "1 cup very ripe mashed bananas (~3-4 bananas)",
+    //         "1 tsp vanilla",
+    //         "2 cups all-purpose flour",
+    //         "1 tsp baking soda",
+    //         "½ tsp baking powder",
+    //         "½ tsp salt",
+    //         "1 cup chocolate chips / chopped walnuts (optional)"
+    //     ],
+    //     preparation: [
+    //         "Preheat oven to 350℉. Grease loaf pan.",
+    //         "Cream butter and sugar until smooth and combined.",
+    //         "Add in eggs (one at a time), beating until smooth.",
+    //         "Mix in mashed bananas and stir in vanilla.",
+    //         "Whisk together dry ingredients and chips / nuts.",
+    //         "Stir in above, until just combined.",
+    //         "Pour into load pan, and bake for 50-60 minutes or until toothpick comes out dry.",
+    //         "Cool in pan for 10 min. before serving. Enjoy!"
+    //     ],
+    //     img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/banana-bread.jpg",
+    //     img_alt: "freshly baked banana bread",
+    //     key_words: "Freezer-friendly, bananas, walnuts"
+    // },
     {
-        id: "2",
-        name: "Tried-and-True Banana Bread",
-        short_name: "Banana Bread",
-        yield: "1 loaf",
-        time: "30 min",
-        description: "This is one of the best ways to use up your over-ripe bananas. The key to this recipe is making sure the eggs, bananas (if frozen) and butter have thawed to room temperature. Freshly baked is the best time to eat, but when I don't have guests to share it with, I just freeze the rest as plastic-wrapped slices. Then when you're ready to have a slice, just reheat from frozen at 225℉ for 6 minutes!",
-        ingredients: [
-            "½ cup butter (room temp)",
-            "1 cup white sugar",
-            "2 large eggs (room temp)",
-            "1 cup very ripe mashed bananas (~3-4 bananas)",
-            "1 tsp vanilla",
-            "2 cups all-purpose flour",
-            "1 tsp baking soda",
-            "½ tsp baking powder",
-            "½ tsp salt",
-            "1 cup chocolate chips / chopped walnuts (optional)"
-        ],
-        preparation: [
-            "Preheat oven to 350℉. Grease loaf pan.",
-            "Cream butter and sugar until smooth and combined.",
-            "Add in eggs (one at a time), beating until smooth.",
-            "Mix in mashed bananas and stir in vanilla.",
-            "Whisk together dry ingredients and chips / nuts.",
-            "Stir in above, until just combined.",
-            "Pour into load pan, and bake for 50-60 minutes or until toothpick comes out dry.",
-            "Cool in pan for 10 min. before serving. Enjoy!"
-        ],
-        img_url: "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/recipes/banana-bread.jpg",
-        img_alt: "freshly baked banana bread",
-        key_words: "Freezer-friendly, bananas, walnuts"
-    },
-    {
-        id: "3",
+        id: "blueberry-rosemary-scones",
         name: "Blueberry Rosemary Scones",
         short_name: "Scones",
         yield: "8 wedges",
@@ -88,7 +88,7 @@ export default [
         key_words: "Fresh rosemary, blueberries, coconut oil"
     },
     {
-        id: "4",
+        id: "beef-and-barley-soup",
         name: "Cathy's Beef & Barley Soup",
         short_name: "Beef & Barley",
         yield: "6 servings",
@@ -119,7 +119,7 @@ export default [
         key_words: "Satisfying, red wine, thyme"
     },
     {
-        id: "5",
+        id: "instant-pot-chicken-and-rice",
         name: "Instant Pot Chicken and Rice",
         short_name: "Chicken bowl",
         yield: "6 servings",

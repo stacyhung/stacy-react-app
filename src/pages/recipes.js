@@ -1,7 +1,6 @@
 import React from "react";
 import recipeData from "../data/recipeData";
 import { Link } from "react-router-dom";
-import "../css/recipe.css"
 import "../css/hover-effect.css"
 
 function Recipes() {
