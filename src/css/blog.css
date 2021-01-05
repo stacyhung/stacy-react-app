@@ -52,7 +52,8 @@ Main blog page
 }
 
 .blog-card-title {
-  padding: 1em 0;
+  padding: 0;
+  margin: 0;
 }
 
 .blog-card-date,
