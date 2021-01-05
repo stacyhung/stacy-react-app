@@ -1,5 +1,7 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* ======================
@@ -7,24 +9,24 @@ General Styles
 ========================= */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    color: var(--clr-dark);
-    font-family: var(--ff-primary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
+  margin: 0;
+  color: var(--clr-dark);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
 }
 
 section {
-    padding: 2em;
+  padding: 2em;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 /* ======================
@@ -33,52 +35,58 @@ Typography
 
 h1,
 h2,
-h3 {
-    line-height: 1;
-    margin: 0;
+h4 {
+  line-height: 1;
+  margin: 0;
 }
 
-h1 { font-size: var(--fs-h1) }
-h2 { font-size: var(--fs-h2) }
-h3 { font-size: var(--fs-h3) }
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h4 {
+  font-size: var(--fs-h3);
+}
 
 strong {
-    font-weight: var(--fw-bold);
+  font-weight: var(--fw-bold);
 }
 
 .section-title {
-    font-size: 3rem;
-    text-align: left;
-    color: var(--clr-dark);
+  font-size: 3rem;
+  text-align: left;
+  color: var(--clr-dark);
 }
-  
+
 @media (min-width: 800px) {
-    .section-title {
-        font-size: 3.8rem;
-    }
+  .section-title {
+    font-size: 3.8rem;
+  }
 }
 
 .intro .section-subtitle,
 .intro .section-title {
-    font-weight: var(--fw-reg);
+  font-weight: var(--fw-reg);
 }
 
 .intro .section-subtitle {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .intro .section-subtitle,
 .about-me .section-subtitle {
-    margin-bottom: 1em;
-    font-size: var(--fs-h3);
-    background: var(--clr-tertiary);
-    font-family: var(--ff-secondary);
-    padding: 0.25em 1em;
+  margin-bottom: 1em;
+  font-size: var(--fs-h3);
+  background: var(--clr-tertiary);
+  font-family: var(--ff-secondary);
+  padding: 0.25em 1em;
 }
 
 .section-subtitle.dark-theme {
-    color: var(--clr-dark);
+  color: var(--clr-dark);
 }
 
 /* ======================
@@ -86,51 +94,50 @@ Intro section
 ========================= */
 
 .intro {
-    position: relative;
+  position: relative;
 }
 
 .intro-img {
-    box-shadow: var(--bs);
+  box-shadow: var(--bs);
 }
 
 .intro-content {
-    margin: 0 auto;
-    padding: 0 2em 2em 2em;
-    max-width: 675px;
-    text-align: left;
-    color: var(--clr-very-dark);
-    font-style: italic;
+  margin: 0 auto;
+  padding: 0 2em 2em 2em;
+  max-width: 675px;
+  text-align: left;
+  color: var(--clr-very-dark);
+  font-style: italic;
 }
 
 @media (min-width: 600px) {
-    .intro {
-        display: grid;
-        width: min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas:
-            "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
-    }
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
 
-    .intro-img {
-        grid-area: img;
-        min-width: 300px;
-        position: relative;
-        z-index: 2; /*put the image in front*/
-    }
+  .intro-img {
+    grid-area: img;
+    min-width: 300px;
+    position: relative;
+    z-index: 2; /*put the image in front*/
+  }
 
-    .intro .section-subtitle {
-        margin-bottom: 1em;
-        align-self: start;
-        grid-column: -1 / 1;
-        grid-row: 2;
-        text-align: right;
-        position: relative;
-        width: calc(100%);
-    }
-
+  .intro .section-subtitle {
+    margin-bottom: 1em;
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    width: calc(100%);
+  }
 }
 
 /* ======================
