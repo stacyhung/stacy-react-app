@@ -4,7 +4,7 @@ import "../css/App.css"
 function SocialListItem(props) {
     return (
         <li className="social-list-item">
-            <a className="social-list-link" href={props.url} target="_blank">
+            <a className="social-list-link" href={props.url} target="_blank" rel="noreferrer">
                 <i className={`fab ${props.icon}`}></i>
             </a>
         </li>
