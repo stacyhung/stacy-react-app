@@ -60,12 +60,6 @@ strong {
   color: var(--clr-dark);
 }
 
-@media (min-width: 800px) {
-  .section-title {
-    font-size: 3.8rem;
-  }
-}
-
 .intro .section-subtitle,
 .intro .section-title {
   font-weight: var(--fw-reg);
@@ -110,6 +104,20 @@ Intro section
   font-style: italic;
 }
 
+@media (min-width: 800px) {
+  .intro .section-title {
+    padding-top: 0;
+    font-size: 3.8rem;
+  }
+}
+
+.intro-img {
+  grid-area: img;
+  min-width: 300px;
+  position: relative;
+  z-index: 2; /*put the image in front*/
+}
+
 @media (min-width: 600px) {
   .intro {
     display: grid;
@@ -122,13 +130,6 @@ Intro section
     grid-template-columns: min-content max-content;
   }
 
-  .intro-img {
-    grid-area: img;
-    min-width: 300px;
-    position: relative;
-    z-index: 2; /*put the image in front*/
-  }
-
   .intro .section-subtitle {
     margin-bottom: 1em;
     align-self: start;
@@ -139,140 +140,3 @@ Intro section
     width: calc(100%);
   }
 }
-
-/* ======================
-Services section
-========================= */
-
-/* .my-services {
-    background-color: #540366;
-    background-image: url(../bioinformatics.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-    color: var(--clr-light);
-    text-align: center;
-}
-
-.my-services .section-title {
-    color: var(--clr-second-primary);
-    position: relative;
-}
-
-.my-services .section-title::after {
-    content: '';
-    display: block;
-    width: 20%;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background-color: var(--clr-second-primary);
-    opacity: 0.7;
-}
-
-.services {
-    margin-bottom: 2em;
-}
-
-.service {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .service + .service {
-        margin-left: 3em;
-    }
-}
-
-.about-me {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.about-me-img {
-    box-shadow: var(--bs);
-}
-
-@media (min-width: 600px) {
-    .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas: 
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 2em;
-    }
-
-    .about-me .section-title {
-        grid-area: title;
-    }
-
-    .about-me .section-subtitle {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
-
-    .about-me-img {
-        grid-area: img;
-        position: relative;
-        z-index: 2;
-    }
-} */
-
-/* ======================
-My Work section
-========================= */
-
-/* .my-work {
-    background-color: var(--clr-very-dark);
-    color: var(--clr-light);
-    text-align: center;
-}
-
-.my-work .section-subtitle {
-    color: var(--clr-second-primary);
-    background-color: var(--clr-very-dark);
-    font-weight: var(--fw-reg);
-    margin: 1em 0;
-}
-
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1em;
-}
-
-.portfolio-item {
-    background: var(--clr-second-primary);
-    overflow: hidden;  
-}
-
-.portfolio-img {
-    object-fit: cover;
-    transition: 
-        transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
-        opacity 250ms linear;
-}
-
-.portfolio-item:focus {
-    position: relative;
-    z-index: 2;
-}
-
-.portfolio-img:hover,
-.portfolio-item:focus .portfolio-img {
-    transform: scale(1.2);
-    opacity: 0.75;
-} */
