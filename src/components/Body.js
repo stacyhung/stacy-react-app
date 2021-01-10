@@ -7,6 +7,7 @@ import Projects from "../pages/Projects"
 import Recipes from "../pages/Recipes"
 import RecipeDetail from "../pages/RecipeDetail"
 import Travelling from "../pages/Travelling"
+import TravelDetail from "../pages/TravelDetail"
 import AboutMe from "../pages/AboutMe"
 import { ToggleContext } from "../ToggleContext"
 import "../css/App.css"
@@ -40,6 +41,10 @@ function Body() {
                 <Route exact path="/travelling">
                     <Travelling />
                 </Route>
+                <Route path="/travelling/:tripId">
+                    <TravelDetail />
+                </Route>
+
                 <Route exact path="/projects">
                     <Projects />
                 </Route>
