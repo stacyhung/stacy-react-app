@@ -11,6 +11,11 @@
   width: 25%; /* Show up to 4 items in a row*/
 }
 
+.wide .hover-link {
+  max-width: 450px;
+  width: 50%;
+}
+
 /* Create offset for odd items */
 .grid .hover-link:nth-child(odd) {
   margin: 30px 0 -30px 0;
@@ -111,6 +116,11 @@
     width: 33.333%;
   }
 
+  .wide .hover-link {
+    max-width: 450px;
+    width: 50%;
+  }
+
   .grid .hover-link:nth-child(odd) {
     margin: 0;
   }
@@ -127,6 +137,10 @@
 
   .grid .hover-link {
     width: 50%;
+  }
+
+  .wide .hover-link {
+    max-width: 450px;
   }
 
   .grid .hover-link:nth-child(3n-1) {
@@ -287,4 +301,92 @@ figure.effect-jazz:hover h2,
 figure.effect-jazz:hover p {
   opacity: 1;
   transform: scale3d(1, 1, 1);
+}
+
+/*-----------------*/
+/***** Goliath *****/
+/*-----------------*/
+
+figure.effect-goliath {
+  background: var(--clr-dark);
+}
+
+figure.effect-goliath h2 {
+  color: var(--clr-light);
+}
+
+figure.effect-goliath img,
+figure.effect-goliath h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+figure.effect-goliath img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-goliath h2,
+figure.effect-goliath p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+}
+
+figure.effect-goliath p {
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 60px, 0);
+}
+
+figure.effect-goliath:hover img {
+  -webkit-transform: translate3d(0, -80px, 0);
+  transform: translate3d(0, -80px, 0);
+}
+
+figure.effect-goliath:hover h2 {
+  -webkit-transform: translate3d(0, -80px, 0);
+  transform: translate3d(0, -80px, 0);
+}
+
+figure.effect-goliath:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+@media (max-width: 800px) {
+  figure.effect-goliath p {
+    padding: 20px;
+    font-size: 0.8em;
+  }
+
+  figure.effect-goliath h2 {
+    margin-bottom: 1em;
+  }
+
+  figure.effect-goliath:hover img {
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+
+  figure.effect-goliath:hover h2 {
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+  }
+}
+
+@media (max-width: 600px) {
+  figure.effect-goliath p {
+    font-size: 0.7em;
+  }
+
+  figure.effect-goliath h2 {
+    font-size: 1.2em;
+  }
 }

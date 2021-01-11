@@ -11,9 +11,7 @@ function TravelDetail() {
     // get the trip from the id
     const thisTrip = tripData.find(trip => trip.id === tripId);
 
-    // get images for this trip
-
-    // use Bootstrap Carousel Component (hard code each image for now, then apply map)
+    // use Bootstrap Carousel Component
     return (
         <Carousel>
             {thisTrip.img_src.map((img, index) => (

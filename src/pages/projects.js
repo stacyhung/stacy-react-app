@@ -1,29 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import projectData from "../data/projectData";
-import "../css/projects.css";
+import "../css/hover-effect.css";
 
 function Projects() {
+  const projects = projectData.map((project) => (
+    <Link
+      key={project.id}
+      to={`/projects/${project.id}`}
+      className="hover-link"
+    >
+      <figure key={project.id} className="effect-goliath">
+        <img src={project.img_src} alt={project.img_alt} />
+        <figcaption>
+          <h2>{project.title}</h2>
+          <p>{project.desc}</p>
+        </figcaption>
+      </figure>
+    </Link>
+  ));
 
-    const projects = projectData.map(project => (
-            <li key={project.id}>
-                <figure>
-                    <img src={project.img_src} alt={project.img_alt} />
-                    <figcaption>
-                        <h3>{project.title}</h3>
-                        <span>{project.desc}</span>
-                        <Link to={`/projects/${project.id}`} className="hover-link">View</Link>
-                    </figcaption>
-                </figure>
-            </li>
-        )    
-    )
-
-    return (
-        <ul className="grid-2 cs-style-3">
-            {projects}
-        </ul>
-    )
+  return <div className="grid wide">{projects}</div>;
 }
 
 export default Projects;

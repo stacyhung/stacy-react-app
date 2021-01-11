@@ -25,7 +25,7 @@ Main blog page
   margin: 3em;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: left;
   transform: scale(1);
   transition: transform 250ms;
 }
@@ -79,6 +79,10 @@ Main blog page
   .blog-card-img {
     width: 100%;
     height: calc(100vw * 0.4);
+  }
+
+  .blog-card-title {
+    margin-top: 1em;
   }
 }
 
