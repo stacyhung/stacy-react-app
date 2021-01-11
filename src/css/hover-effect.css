@@ -125,6 +125,10 @@
     margin: 0;
   }
 
+  .wide .hover-link:nth-child(even) {
+    margin: 30px 0 -30px 0;
+  }
+
   .grid .hover-link:nth-child(3n-1) {
     margin: 30px 0 -30px 0;
   }
