@@ -25,8 +25,8 @@ export default [
   },
   {
     id: "to-do-list",
-    title: "Todo List",
-    desc: "Create to-lists and cross out tasks as you complete them",
+    title: "To-do Lists",
+    desc: "Create to-do lists and cross out tasks as you complete them",
     img_src:
       "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/projects/6-things-to-do-list.webp",
     img_alt: "to-do list",
