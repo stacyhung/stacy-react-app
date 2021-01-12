@@ -1,6 +1,9 @@
-.carousel-img {
+.carousel {
+  max-width: 1000px;
   margin: 0 auto;
-  max-width: 1050px;
+}
+
+.carousel-img {
   height: 50vh;
   object-fit: cover;
 }
