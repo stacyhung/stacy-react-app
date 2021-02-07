@@ -11,7 +11,7 @@ function Home() {
         <>
             <section className="intro">
                 <h1 className="section-title">Hi, I am <br /><strong>Stacy Hung</strong></h1>
-                <h4 className={`section-subtitle ${theme}-theme`}>PhD, Front-end Dev</h4>
+                <h4 className={`section-subtitle ${theme}-theme`}>PhD, Bioinformatician</h4>
                 <img className="intro-img" src={profilePic} alt="me looking out at NZ" id="profile-pic" />
             </section>
             <p className="intro-content">I'm a bioinformatics scientist who recently discovered an untapped

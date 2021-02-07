@@ -5,7 +5,7 @@ export default function Blog20201217() {
   return (
     <>
       <p>
-        Earlier this year, I had an epiphany about what I wanted to do with my
+        Earlier this year, I had an epiphany about how I wanted to move forward with my
         career.
       </p>
 
@@ -37,11 +37,10 @@ export default function Blog20201217() {
       </p>
 
       <p>
-        One day, I was talking to a network contact about my situation. I asked
+        One day, I was talking to a new network contact about my situation. I asked
         her what she did exactly, and as she described the work, my eyes widened
-        and my smile turned into a huge grin. Wait, I thought. I was having a
-        lightbulb moment. From that moment on, I knew what I wanted to do with
-        my career. Fast-forward ten months later, and I’ve learned all the
+        and my smile turned into a huge grin. I was having a lightbulb moment.
+        Fast-forward ten months later, and I’ve learned all the
         basics of front-end development (HTML, CSS, Javascript, and React) and
         even launched a project / blog site on a domain that I am proud to call
         my own (you're looking at it)!

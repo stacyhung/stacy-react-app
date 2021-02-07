@@ -1,10 +1,22 @@
 export default [
   {
+    id: "20210207",
+    title: "Cycling in the Rain",
+    date: "February 7, 2021",
+    exerpt:
+      "I fell in love with road cycling almost immediately after moving here from Ontario.",
+    img_small:
+      "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/DSCF1380.JPG",
+    img_large:
+      "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/ridelogo_2018_gen.png",
+    img_alt: "wet ride",
+  },
+  {
     id: "20201217",
-    title: "Decoding the coder: my path to front-end development",
+    title: "Decoding the coder: paving the way with front-end development",
     date: "December 17, 2020",
     exerpt:
-      "Earlier this year, I had an epiphany about what I wanted to do with my career.",
+      "Earlier this year, I had an epiphany about how I wanted to moved forward my career.",
     img_small:
       "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/javascriptmas_mini.png",
     img_large:

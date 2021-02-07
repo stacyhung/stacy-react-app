@@ -32,6 +32,7 @@ Main blog page
 
 .blog-card-img {
   min-width: 275px;
+  width: 275px;
   height: 150px;
   object-fit: cover;
   padding-right: 2em;
