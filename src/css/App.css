@@ -26,6 +26,7 @@ Custom properties
   --fs-h1: 2.3rem;
   --fs-h2: 1.8rem;
   --fs-h3: 1.1rem;
+  --fs-h4: 1rem;
   --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
@@ -37,6 +38,7 @@ Custom properties
     --fs-h1: 2.8rem;
     --fs-h2: 2rem;
     --fs-h3: 1.4rem;
+    --fs-h4: 1.2rem;
     --fs-body: 1.05rem;
   }
 }

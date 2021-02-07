@@ -73,7 +73,7 @@ strong {
 .intro .section-subtitle,
 .about-me .section-subtitle {
   margin-bottom: 1em;
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h4); 
   background: var(--clr-tertiary);
   font-family: var(--ff-secondary);
   padding: 0.25em 1em;
