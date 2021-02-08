@@ -1,10 +1,10 @@
 export default [
   {
     id: "20210207",
-    title: "Cycling in the Rain",
+    title: "The benefits of cycling in the rain",
     date: "February 7, 2021",
     exerpt:
-      "I fell in love with road cycling almost immediately after moving here from Ontario.",
+      "Think of your favourite outdoor activity. Now ask yourself: would avoid the activity if it were raining? I’m guessing your answer is yes. Well, my answer is yes and no.",
     img_small:
       "https://raw.githubusercontent.com/stacyhung/stacy-react-app/master/images/blog/DSCF1380.JPG",
     img_large:

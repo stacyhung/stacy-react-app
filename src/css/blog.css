@@ -57,6 +57,10 @@ Main blog page
   margin: 0;
 }
 
+.blog-card-exerpt {
+  padding: 0.5em 0;
+}
+
 .blog-card-date,
 .blog-date {
   text-transform: uppercase;
@@ -78,6 +82,7 @@ Main blog page
   }
 
   .blog-card-img {
+    padding-right: 0;
     width: 100%;
     height: calc(100vw * 0.4);
   }
